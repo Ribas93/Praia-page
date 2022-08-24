@@ -94,6 +94,7 @@ width: 100%;
 }
 
 .smallBox{
+  margin: auto;
   width:33.33%;
   height: 100%;
   padding: 1.25rem;
@@ -114,5 +115,7 @@ width: 100%;
 }
 
 @media screen and (max-width: 580px){
-  .box{height: 145%;}
+  .box{height: 160%;}
+  .smallBox{padding: 10px;}
+  
 }
