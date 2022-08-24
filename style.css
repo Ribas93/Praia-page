@@ -25,11 +25,13 @@ body, html{
 
 #sup h1{
   font-size: 3.125rem;
+  text-align: center;
 }
 
 #sup p{
   margin-top: 0;
   font-size: 1.25rem;
+  text-align: center;
 }
 
 
@@ -98,3 +100,19 @@ width: 100%;
   background-color: var(--marrom);
 }
 
+@media screen and (max-width: 1000px){
+  #sup p{font-size: 22px;}
+  .box{height: 45%;}
+}
+
+@media screen and (max-width: 800px){
+  .box{height: 60%;}
+}
+
+@media screen and (max-width: 680px){
+  .box{height: 80%;}
+}
+
+@media screen and (max-width: 580px){
+  .box{height: 145%;}
+}
