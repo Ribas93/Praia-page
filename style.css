@@ -68,6 +68,7 @@ height: 100vh;
 
 .box_last{
   display:flex;
+  flex-direction: row;
   padding:0;
 }
 
